@@ -1,0 +1,113 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+* {
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("images/pattern-background-desktop.svg");
+  font-size: 16px;
+}
+
+.imgg {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+.main-page {
+  height: 570px;
+  width: 450px;
+  border: 1px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+  margin-top: 50px;
+  box-sizing: border-box;
+  /* max-width: 100%; */
+}
+
+.mainhead {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.para {
+  text-align: center;
+  margin: 20px 80px;
+}
+
+.form {
+  position: relative;
+  margin-bottom: 10px;
+  background-color: hsl(225, 100%, 94%);
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.form a {
+  position: relative;
+  left: 200px;
+  bottom: 95px;
+  padding-left: 40px;
+}
+
+.form a:hover {
+  text-decoration: none;
+}
+
+.imggg {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 50%;
+  width: 40px;
+}
+
+.main-span {
+  display: block;
+  position: relative;
+  left: 50px;
+  bottom: 45px;
+}
+
+.btn {
+  position: relative;
+  width: 310px;
+  border-radius: 7px;
+  margin-left: 80px;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.pay {
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 10px;
+  color: hsl(225, 100%, 94%);
+}
+
+.pay:hover {
+  background-color: hsl(228, 45%, 44%);
+}
+
+.cancel {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.cancel:hover {
+  font-weight: bold;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
